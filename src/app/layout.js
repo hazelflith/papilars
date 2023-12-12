@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.510/build/spline-viewer.js"></Script>
       <Script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></Script>
+      <Script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></Script> 
       <body>
         <Header/>
         {children}
