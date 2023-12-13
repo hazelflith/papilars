@@ -73,7 +73,6 @@
 //     --card-border-rgb: 200, 200, 200;
 //   }
 // }
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -83,11 +82,12 @@ p{
   margin: 0;
 }
 main{
+  color: white;
+  background: #000;
   margin-top: 62px;
 }
 html,
 body {
-  background: #000;
   color: var(--primary);
   max-width: 100vw;
   overflow-x: hidden;
@@ -171,7 +171,7 @@ a.active{
   position: absolute;
   width: 100%;
   height: 90svh;
-  z-index: -1;
+  z-index: 0;
   transform: scale(1.05);
 }
 .pa{
@@ -179,11 +179,13 @@ a.active{
   background-size: contain;
   height: 121px;
   width: 184px;
+  z-index: 1;
 }
 .pi{
   background: url(/images/pi.png) no-repeat;
   background-size: contain;
   height: 121px;
+  z-index: 1;
   width: 128px;
 }
 .lars{
@@ -191,6 +193,7 @@ a.active{
   background-size: contain;
   height: 128px;
   width: 356px;
+  z-index: 1;
   margin-top: -4px;
 }
 .path{
