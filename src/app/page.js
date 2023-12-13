@@ -34,7 +34,7 @@ export default function Index() {
   
 
   return (
-    <main>
+    <main class={futura.className}>
       <div class="landing d-flex">
         <video muted loop playsinline class="video1 opacity-25">
           <source src="/videos/grouped.mp4" type="video/mp4"/>
@@ -50,7 +50,7 @@ export default function Index() {
           <div class="path"></div>
           <div class="d-flex">
             <div class="about">
-              <h2 class="text-center color-green">
+              <h2 class={`${futuraMD.className} text-center color-green`}>
                 Tentang Kami
                 <div class="accessories-1">
                   <svg xmlns="http://www.w3.org/2000/svg" width="95" height="95" viewBox="0 0 95 95" fill="none">
@@ -66,11 +66,48 @@ export default function Index() {
               </h2>
               <p><b class="color-green">PAPILARS</b> adalah <b class="color-green">Digital Creative Agency</b> yang menggabungkan <b class="color-green">Keahlian dan Teknologi.</b> Kombinasi tim dengan berbagai latar belakang menciptakan nilai tinggi dalam solusi layanan yang diimplementasikan. Layanan kami mencakup <b class="color-green">Desain dan Manajemen dalam ranah solusi kreatif, pemasaran, dan branding.</b></p>
             </div>
-            <dotlottie-player src="https://lottie.host/2fb3c383-c696-483a-8a86-595550d08ac2/ZX9oOFzDn6.json" background="transparent" speed="1" class="animation-1" loop autoplay></dotlottie-player>
+            <div class="animation-1">
+              <dotlottie-player src="https://lottie.host/2fb3c383-c696-483a-8a86-595550d08ac2/ZX9oOFzDn6.json" background="transparent" speed="1" class="w-85" loop autoplay></dotlottie-player>
+            </div>
+          </div>
+          <div class="section-break"></div>
+          <div class="services">
+            <div class="d-flex">
+              <h2 class={`${futuraMD.className} ms-auto services-title`}>
+                <div class="services-headline color-green">Services</div>
+                <div class="accessories-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="434" height="97" viewBox="0 0 434 97" fill="none">
+                    <path d="M2 2L432 42.7593H147.608L432 59.9815H219.844L381.378 72.6111L300.611 80.6481L366.59 91.5556L339.288 95" stroke="#879679" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </h2>
+            </div>
+            <div class="d-flex gap-4">
+              <div class="w-100">
+                <div class="service-1">
+                  <div class="service-icon-1"></div>
+                </div>
+              </div>
+              <div class="w-100">
+                <div class="service-2">
+                  <div class="service-icon-2"></div>
+                </div>
+              </div>
+              <div class="w-100">
+                <div class="service-3">
+                  <div class="service-icon-3"></div>
+                </div>
+              </div>
+              <div class="w-100">
+                <div class="service-4">
+                  <div class="service-icon-4"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="gradient-overlay"></div>
-        <spline-viewer url="https://prod.spline.design/NcZZD82sxOjmIaXw/scene.splinecode"></spline-viewer>
+        {/* <spline-viewer url="https://prod.spline.design/NcZZD82sxOjmIaXw/scene.splinecode"></spline-viewer> */}
       </div>
       
       
