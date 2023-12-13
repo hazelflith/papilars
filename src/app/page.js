@@ -154,7 +154,7 @@ export default function Index() {
           </div>
         </div>
         <div class="gradient-overlay"></div>
-        {/* <spline-viewer url="https://prod.spline.design/NcZZD82sxOjmIaXw/scene.splinecode"></spline-viewer> */}
+        <spline-viewer url="https://prod.spline.design/NcZZD82sxOjmIaXw/scene.splinecode"></spline-viewer>
       </div>
       
       
