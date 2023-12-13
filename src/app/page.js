@@ -121,9 +121,40 @@ export default function Index() {
               </div>
             </div>
           </div>
+          <div class="section-break-small"></div>
+          <div class="portofolios">
+            <div class="portofolio-title d-flex align-items-center ms-5">
+              <div class="accessories-3 ms-4 me-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="88" height="17" viewBox="0 0 88 17" fill="none">
+                  <path d="M2 1.5H86" stroke="#879679" stroke-width="3" stroke-linecap="round"/>
+                  <path d="M55 8.5L86 8.5" stroke="#879679" stroke-width="3" stroke-linecap="round"/>
+                  <path d="M75 15L86 15" stroke="#879679" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h2 class={`${futuraMD.className} color-green `}>Portofolio</h2>
+              <div class="accessories-4 mx-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="88" height="17" viewBox="0 0 88 17" fill="none">
+                  <path d="M86 1.5H2" stroke="#879679" stroke-width="3" stroke-linecap="round"/>
+                  <path d="M33 8.5L2 8.5" stroke="#879679" stroke-width="3" stroke-linecap="round"/>
+                  <path d="M13 15L2 15" stroke="#879679" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class={`${futuraMD.className} portofolio-grid`}>
+              <div class="porto-1"><p>UI/UX Design</p><p>NIKE Mobile App</p></div>
+              <div class="porto-2"><p>Website Development</p><p>harisp.com</p></div>
+              <div class="porto-3"><p>UI/UX Design</p><p>Registration Page</p></div>
+              <div class="porto-4"><p>Product Design</p><p>Greeya Gurih</p></div>
+              <div class="porto-5"><p>Website Development</p><p>dreamguru.id</p></div>
+              <div class="porto-6"><p>Website Development</p><p>meteraionline.id</p></div>
+              <div class="contact">
+
+              </div>
+            </div>
+          </div>
         </div>
         <div class="gradient-overlay"></div>
-        <spline-viewer url="https://prod.spline.design/NcZZD82sxOjmIaXw/scene.splinecode"></spline-viewer>
+        {/* <spline-viewer url="https://prod.spline.design/NcZZD82sxOjmIaXw/scene.splinecode"></spline-viewer> */}
       </div>
       
       

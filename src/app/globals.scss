@@ -154,6 +154,11 @@ a.active{
 }
 .footer {
   padding: 5vw;
+  margin-top: -15vw;
+  padding-top: 0;
+  p{
+    font-size: larger;
+  }
 }
 
 .landing{
@@ -259,6 +264,9 @@ h2{
 .color-green{
   color: #879679 !important;
 }
+.section-break-small{
+  margin-top: 48px;
+}
 .section-break{
   margin-top: 72px;
 }
@@ -338,6 +346,81 @@ h2{
   transform: rotate(-6.81deg);
   margin-left: 42px;
 }
+
+.portofolio-grid{
+  display: grid;
+  grid-template-areas: 
+  'satu satu dua dua dua tiga'
+  'satu satu empat blank blank blank'
+  'lima lima lima blank blank blank'
+  'enam enam enam blank blank blank';
+  gap: 30px;
+  padding: 0 70px;
+  height: 1435px;
+}
+.portofolio-grid > div {
+  pointer-events: all;
+  border: 1px solid var(--primary);
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: start;
+  padding: 20px 20px;
+  padding-right: 0;
+  font-size: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  transition: .5s;
+  cursor: pointer;
+  &:hover{
+    box-shadow: 0px 0px 12px 6px rgba(135, 150, 121, 0.50);
+    transform: scale(1.025);
+  }
+}
+.porto-1 {
+  grid-area: satu;
+  background: url(/images/porto1.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.porto-2 {
+  grid-area: dua;
+  background: url(/images/porto2.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.porto-3 {
+  grid-area: tiga;
+  background: url(/images/porto3.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.porto-4 {
+  grid-area: empat;
+  background: url(/images/porto4.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 240px;
+}
+.porto-5 {
+  grid-area: lima;
+  background: url(/images/porto5.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 240px;
+}
+.porto-6 {
+  grid-area: enam;
+  background: url(/images/porto6.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 240px;
+}
+.contact{
+  grid-area: blank;
+  margin-top: 64px;
+  margin-left: -130px;
+}
+
 // @media (prefers-color-scheme: dark) {
 //   html {
 //     color-scheme: dark;

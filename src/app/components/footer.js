@@ -8,8 +8,8 @@ const futuraMD = localFont({ src: './futuramd.ttf' })
 export default function Footer() {
     return (
       <>
-        <div className={`${futura.className} footer py-5 my-5`}>
-          <div className="row opacity-50">
+        <div className={`${futura.className} footer`}>
+          <div className="row opacity-50 color-green">
             <div className="col-lg-6">
               <p>Jl. Praja Dalam E No.37, RT.7/RW.5,</p>
               <p> Kby. Lama Sel., Kec. Kby. Lama, Kota</p>
@@ -18,11 +18,11 @@ export default function Footer() {
             <div className="col-lg-6">
               <div className="d-flex justify-content-lg-end">
                 <p>four.studio@gmail.com</p>
-                <img className="ms-2 align-self-center" src="/images/mail.png" alt=""></img>
+                <ion-icon name="mail" class="ms-2 align-self-center"></ion-icon>
               </div>
               <div className="d-flex justify-content-lg-end">
-                <p>628119590159</p>
-                <img className="ms-2 align-self-center" src="/images/phone.png" alt=""></img>
+                <p>+628119590159</p>
+                <ion-icon name="call" class="ms-2 align-self-center"></ion-icon>
               </div>
             </div>
           </div>
