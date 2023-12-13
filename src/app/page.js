@@ -86,28 +86,44 @@ export default function Index() {
               <div class="w-100">
                 <div class="service-1">
                   <div class="service-icon-1"></div>
+                  <div class="service-text-1">
+                    <h4 class="text-center color-green"><b>Social Media Management</b></h4>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
+                  </div>
                 </div>
               </div>
               <div class="w-100">
                 <div class="service-2">
                   <div class="service-icon-2"></div>
+                  <div class="service-text-2">
+                    <h4 class="text-center color-green"><b>Creative Design & UI/UX</b></h4>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
+                  </div>
                 </div>
               </div>
               <div class="w-100">
                 <div class="service-3">
                   <div class="service-icon-3"></div>
+                  <div class="service-text-3">
+                    <h4 class="text-center color-green"><b>Website Development</b></h4>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
+                  </div>
                 </div>
               </div>
               <div class="w-100">
                 <div class="service-4">
                   <div class="service-icon-4"></div>
+                  <div class="service-text-4">
+                    <h4 class="text-center color-green"><b>Paid Advertisements</b></h4>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="gradient-overlay"></div>
-        {/* <spline-viewer url="https://prod.spline.design/NcZZD82sxOjmIaXw/scene.splinecode"></spline-viewer> */}
+        <spline-viewer url="https://prod.spline.design/NcZZD82sxOjmIaXw/scene.splinecode"></spline-viewer>
       </div>
       
       
