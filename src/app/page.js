@@ -16,10 +16,10 @@ export default function Index() {
   const [isLoaded,setIsLoaded] = useState(false)
   gsap.registerPlugin(ScrollTrigger,MotionPathPlugin);
   useEffect(() => {
-    setTimeout(() => {
-      document.querySelector('spline-viewer').shadowRoot.querySelector('#logo').setAttribute('style', 'opacity:0');
-      console.log('executed')
-    }, 2000);
+    // setTimeout(() => {
+    //   document.querySelector('spline-viewer').shadowRoot.querySelector('#logo').setAttribute('style', 'opacity:0');
+    //   console.log('executed')
+    // }, 2000);
   }, [])
   useEffect(() => {
     if(!isLoaded) {
@@ -147,14 +147,22 @@ export default function Index() {
               <div class="porto-4"><p>Product Design</p><p>Greeya Gurih</p></div>
               <div class="porto-5"><p>Website Development</p><p>dreamguru.id</p></div>
               <div class="porto-6"><p>Website Development</p><p>meteraionline.id</p></div>
-              <div class="contact">
-
+              <div class="contact" id='contact'>
+                <dotlottie-player src="https://lottie.host/5103d5de-883e-4255-9aa5-eb66d2f8282c/lmB3nFFKIo.json" background="transparent" speed="1" loop autoplay class="animation-2"></dotlottie-player>
+                <h3 class={`${futuraMD.className} text-center contact-title`}>Siap untuk mendigitalisasi usaha anda bersama <span class="color-green">PAPILARS</span>?</h3>
+                <div class="d-flex mx-auto mt-3">
+                  <div class="btn-action btn-outline-green hover-blockRight">
+                    HUBUNGI KAMI
+                    <div class="el-block"></div>
+                    <div class="el-loader"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="gradient-overlay"></div>
-        <spline-viewer url="https://prod.spline.design/NcZZD82sxOjmIaXw/scene.splinecode"></spline-viewer>
+        {/* <spline-viewer url="https://prod.spline.design/NcZZD82sxOjmIaXw/scene.splinecode"></spline-viewer> */}
       </div>
       
       
