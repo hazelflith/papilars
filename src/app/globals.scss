@@ -389,6 +389,7 @@ h2{
   background: url(/images/porto1.png) no-repeat;
   background-position: center;
   background-size: cover;
+  padding-right: 60px !important;
 }
 .porto-2 {
   grid-area: dua;
@@ -401,6 +402,7 @@ h2{
   background: url(/images/porto3.png) no-repeat;
   background-position: center;
   background-size: cover;
+  padding-right: 30px !important;
 }
 .porto-4 {
   grid-area: empat;
@@ -408,7 +410,7 @@ h2{
   background-position: center;
   background-size: cover;
   margin-right: 0px;
-  padding-right: 120px !important;
+  padding-right: 75px !important;
 
 }
 .porto-5 {
