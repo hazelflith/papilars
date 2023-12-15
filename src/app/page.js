@@ -11,7 +11,7 @@ import localFont from 'next/font/local'
 const futura = localFont({ src: './components/futura.ttf' })
 const futuraMD = localFont({ src: './components/futuramd.ttf' })
 
-
+/* eslint-disable */
 export default function Index() {
   const [isLoaded,setIsLoaded] = useState(false)
   gsap.registerPlugin(ScrollTrigger,MotionPathPlugin);
