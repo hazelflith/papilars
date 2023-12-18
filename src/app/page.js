@@ -237,7 +237,7 @@ export default function Index() {
                 <div class="porto-1"><p>UI/UX Design</p><p>NIKE Mobile App</p></div>
                 <div class="porto-2"><p>Website Development</p><p>harisp.com</p></div>
                 <div class="porto-3"><p>UI/UX Design</p><p>Registration Page</p></div>
-                <div class="porto-4"><p>Product Design</p><p>Greeya Gurih</p></div>
+                <div class="porto-4"><p>Product Design</p><p>Greeya Asih</p></div>
                 <div class="porto-5"><p>Website Development</p><p>dreamguru.id</p></div>
                 <div class="porto-6"><p>Website Development</p><p>meteraionline.id</p></div>
                 <div class="contact" id='contact'>
