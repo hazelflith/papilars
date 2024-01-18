@@ -173,29 +173,32 @@ a.active{
   transform: scale(1.05);
   opacity: 0;
 }
+.heading-wrapper{
+  width: 45vw;
+  height: 23vh;
+  position: relative;
+}
 .pa{
   background: url(/images/pa.png) no-repeat;
   background-size: contain;
-  height: 121px;
-  width: 184px;
+  width: 29vw;
   z-index: 1;
   opacity: 0;
 }
 .pi{
   background: url(/images/pi.png) no-repeat;
   background-size: contain;
-  height: 121px;
   z-index: 1;
-  width: 128px;
+  width: 18.3vw;
   opacity: 0;
 }
 .lars{
   background: url(/images/lars.png) no-repeat;
   background-size: contain;
-  height: 128px;
-  width: 356px;
+  width: 59vw;
   z-index: 1;
-  margin-top: -4px;
+  margin-top: -.7%;
+  margin-left: .5vw;
   opacity: 0;
 }
 .path{
@@ -207,7 +210,6 @@ a.active{
   position: absolute;
   opacity: 0;
   display: none;
- 
 }
 .logo{
   height: 32px;
@@ -244,7 +246,7 @@ spline-viewer{
 .about{
   padding-left: 40px;
   padding-top: 95px;
-  max-width: 715px;
+  width: 48vw;
   transform: rotate(-3.747deg);
   p{
     font-size: x-large;
@@ -259,6 +261,9 @@ h2{
 }
 h3{
   font-size: 36px;
+}
+.tentang-kami{
+  position: relative;
 }
 .tagline{
   text-align: center;

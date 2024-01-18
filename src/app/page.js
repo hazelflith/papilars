@@ -116,7 +116,7 @@ export default function Index() {
           <source src="/videos/grouped.mp4" type="video/mp4"/>
         </video>
         <div class="heading">
-          <div class="d-inline-flex">
+          <div class="d-flex heading-wrapper">
             <div class="pa"></div>
             <div class="pi"></div>
             <div class="lars"></div>
@@ -141,7 +141,7 @@ export default function Index() {
         <div class="content">
           <div class="path"></div>
           <div class="inside-content">
-            <div class="d-flex">
+            <div class="d-flex tentang-kami">
               <div class="about">
                 <h2 class={`${futuraMD.className} text-center color-green`}>
                   Tentang Kami
