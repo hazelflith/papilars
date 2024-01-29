@@ -242,7 +242,9 @@ export default function Index() {
                 <div class="porto-6"><p>Website Development</p><p>meteraionline.id</p></div>
                 <div class="contact" id='contact'>
                   <dotlottie-player src="https://lottie.host/5103d5de-883e-4255-9aa5-eb66d2f8282c/lmB3nFFKIo.json" background="transparent" speed="1" loop autoplay class="animation-2"></dotlottie-player>
-                  <h3 class={`${futuraMD.className} text-center contact-title`}>Siap untuk mendigitalisasi usaha anda bersama <span class="color-green">PAPILARS</span>?</h3>
+                  <div class="contact-title ms-auto">
+                    <h3 class={`${futuraMD.className} text-center`}>Siap untuk mendigitalisasi usaha anda bersama <span class="color-green">PAPILARS</span>?</h3>
+                  </div>
                   <div class="d-flex mx-auto mt-3">
                     <div class="btn-action btn-outline-green hover-blockRight">
                       HUBUNGI KAMI
@@ -255,7 +257,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-        <div class="gradient-overlay"></div>
+        {/* <div class="gradient-overlay"></div> */}
         {/* <spline-viewer url="https://prod.spline.design/NcZZD82sxOjmIaXw/scene.splinecode"></spline-viewer> */}
       </div>
       

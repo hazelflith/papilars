@@ -381,25 +381,27 @@ h4{
   transform: rotate(-6.81deg);
   margin-left: 42px;
 }
-
+.portofolios{
+  padding: 0 70px;
+}
 .portofolio-grid{
   display: grid;
   grid-template-areas: 
   'satu satu dua dua dua tiga'
-  'satu satu empat blank blank blank'
-  'lima lima lima blank blank blank'
-  'enam enam enam blank blank blank';
+  'satu satu empat empat blank blank'
+  'lima lima lima lima blank blank'
+  'enam enam enam enam blank blank';
   gap: 30px;
-  padding: 0 70px;
   height: 1435px;
+  p{
+    font-size: 24px;
+  }
 }
 .portofolio-grid > div {
   pointer-events: all;
   border: 1px solid var(--primary);
-  background-color: rgba(0, 0, 0, 0.6);
   text-align: start;
   padding: 20px 20px;
-  padding-right: 0;
   font-size: 30px;
   display: flex;
   align-items: flex-start;
@@ -416,28 +418,25 @@ h4{
   background: url(/images/porto1.png) no-repeat;
   background-position: center;
   background-size: cover;
-  padding-right: 60px !important;
 }
 .porto-2 {
   grid-area: dua;
   background: url(/images/porto2.png) no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 140px !important;
 }
 .porto-3 {
   grid-area: tiga;
   background: url(/images/porto3.png) no-repeat;
   background-position: center;
   background-size: cover;
-  padding-right: 30px !important;
 }
 .porto-4 {
   grid-area: empat;
   background: url(/images/porto4.png) no-repeat;
   background-position: center;
   background-size: cover;
-  margin-right: 0px;
-  padding-right: 75px !important;
 
 }
 .porto-5 {
@@ -445,8 +444,6 @@ h4{
   background: url(/images/porto5.png) no-repeat;
   background-position: center;
   background-size: cover;
-  margin-right: 0px;
-  padding-right: 120px !important;
 
 }
 .porto-6 {
@@ -454,15 +451,12 @@ h4{
   background: url(/images/porto6.png) no-repeat;
   background-position: center;
   background-size: cover;
-  margin-right: 0px;
-  padding-right: 120px !important;
 }
 .contact{
   grid-area: blank;
-  margin-top: 64px;
-  margin-left: 120px;
 }
 #contact{
+  position: relative;
   flex-direction: column;
   border: unset;
   cursor: default;
@@ -472,13 +466,15 @@ h4{
   }
 }
 .animation-2{
-  width: 100%;
-  margin-top: -30%;
-  transform: scale(1.7);
+  position: absolute;
+  width: 30vw;
+  top: -10%;
+  transform: scale(2);
+  right: 6.5vw;
 }
 .contact-title{
-  margin-top: -30%;
-  // margin-left: 17%;
+  margin-top: 50vw;
+  width: 40vw;
 }
 .btn-action {
   text-transform: uppercase;
