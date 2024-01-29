@@ -80,6 +80,7 @@
 }
 p{
   margin: 0;
+  font-size: 1.05vw;
 }
 main{
   color: white;
@@ -249,18 +250,21 @@ spline-viewer{
   width: 48vw;
   transform: rotate(-3.747deg);
   p{
-    font-size: x-large;
+    font-size: 1.7vw;
   }
   h2{
     margin-left: -43px;
   }
 }
 h2{
-  font-size: 72px;
+  font-size: 4.7vw;
   position: relative;
 }
 h3{
   font-size: 36px;
+}
+h4{
+  font-size: 1.6vw;
 }
 .tentang-kami{
   position: relative;
@@ -290,7 +294,7 @@ h3{
   top: 15px;
 }
 .w-85{
-  width: 85% !important;
+  width: 29vw !important;
 }
 .color-green{
   color: #879679 !important;
@@ -299,7 +303,7 @@ h3{
   margin-top: 48px;
 }
 .section-break{
-  margin-top: 72px;
+  margin-top: 56px;
 }
 .section-break-2{
   margin-top: 128px;
@@ -330,32 +334,32 @@ h3{
   margin-top: 32px;
 }
 .service-4{
-  margin-top: 32px;
+  margin-top: 16px;
 }
 .service-icon-1{
   background: url(/images/icons-smm.png) no-repeat;
   background-size: contain;
   width: 100%;
-  height: 257px;
+  height: 17vw;
 }
 .service-icon-2{
   background: url(/images/icons-creative.png) no-repeat;
   background-size: contain;
   width: 100%;
-  height: 328px;
+  height: 21.5vw;
   margin-left: 32px;
 }
 .service-icon-3{
   background: url(/images/icons-website.png) no-repeat;
   background-size: contain;
   width: 100%;
-  height: 336px;
+  height: 22vw;
 }
 .service-icon-4{
   background: url(/images/icons-ads.png) no-repeat;
   background-size: contain;
   width: 100%;
-  height: 373px;
+  height: 24.2vw;
 }
 .service-text-1{
   margin-top: -24px;
