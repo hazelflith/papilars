@@ -33,37 +33,42 @@ export default function Header() {
             </div>
           </div>
         </nav>
-        <nav role="navigation" className="d-lg-none d-block">
-          <div id="menuToggle" className="d-lg-none d-block">
-            <input type="checkbox" />
-              <span></span>
-              <span></span>
-              <span></span>
-          <ul id="menu">
-            <div className="navbar-brand">
-              <div className="logo" style={{ background: `url(a)` , backgroundSize: "contain", backgroundRepeat: "no-repeat"}}></div>
+        <nav role="navigation" className="d-lg-none d-block navbar-mobile">
+          <div class="d-flex">
+            <div id="menuToggle" className="d-lg-none d-block">
+              <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
+              <div className="navbar-brand">
+                <div className="logo" style={{ background: `url(/images/logo.png)` , backgroundSize: "contain", backgroundRepeat: "no-repeat"}}></div>
+              </div>
+              <div>
+                <Link href="/" className={router.asPath == "/" ? "active" : ""}>
+                  Beranda
+                </Link>
+              </div>
+              <div>
+                <Link href="#tentang" className={router.pathname == "#tentang" ? "active" : ""}>
+                  Klien
+                </Link>
+              </div>
+              <div>
+                <Link href="#faq" className={router.pathname == "#faq" ? "active" : ""}>
+                  Portofolio
+                </Link>
+              </div>
+              <div>
+                <Link href={"https://api.whatsapp.com/send?phone=" + "6282126913015"}>
+                  Tentang Kami
+                </Link>
+              </div>
+            </ul>
             </div>
-            <div>
-              <Link href="/" className={router.asPath == "/" ? "active" : ""}>
-                Beranda
-              </Link>
+            <div className="navbar-brand ms-auto me-4 mt-3">
+              <div className="logo" style={{ background: `url(/images/logo.png)` , backgroundSize: "contain", backgroundRepeat: "no-repeat"}}></div>
             </div>
-            <div>
-              <Link href="#tentang" className={router.pathname == "#tentang" ? "active" : ""}>
-                Tentang
-              </Link>
-            </div>
-            <div>
-              <Link href="#faq" className={router.pathname == "#faq" ? "active" : ""}>
-                FAQ
-              </Link>
-            </div>
-            <div>
-              <Link href={"https://api.whatsapp.com/send?phone=" + "6282126913015"}>
-                Kontak
-              </Link>
-            </div>
-          </ul>
           </div>
           
             <a href="/" alt="logo">
