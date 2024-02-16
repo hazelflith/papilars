@@ -22,6 +22,9 @@ export default function Index() {
     //   document.querySelector('spline-viewer').shadowRoot.querySelector('#logo').setAttribute('style', 'opacity:0');
     //   console.log('executed')
     // }, 2000);
+    let mm = gsap.matchMedia();
+
+    
     gsap.to(".pa", {
       autoAlpha: 1,
       delay: 0
@@ -40,51 +43,55 @@ export default function Index() {
       duration: 1.25,
       ease: 'expo.out'
     })
-    gsap.to(".navbar", {
-      autoAlpha: 1,
-      delay: 2,
-      duration: 1.25,
-      ease: 'expo.out'
-    })
     gsap.to(".tagline", {
       autoAlpha: 1,
       delay: 2,
       duration: 1.25,
       ease: 'expo.out'
     })
-    gsap.to(".heading", {
-      marginLeft: "5%",
-      delay: 4,
-      duration: 2,
-      ease: 'expo.out'
-    })
-    gsap.to(".tagline", {
-      textAlign: "left",
-      delay: 4,
-      duration: 2,
-      ease: 'expo.out'
-    })
-    gsap.to(".sub-heading", {
-      autoAlpha: 1,
-      delay: 5,
-      duration: 1.25,
-      ease: 'expo.out'
-    })
+    mm.add("(min-width: 500px)", () => {
+      gsap.to(".heading", {
+        marginLeft: "5%",
+        delay: 4,
+        duration: 2,
+        ease: 'expo.out'
+      })
+      gsap.to(".tagline", {
+        textAlign: "left",
+        delay: 4,
+        duration: 2,
+        ease: 'expo.out'
+      })
+      gsap.to(".sub-heading", {
+        autoAlpha: 1,
+        delay: 5,
+        duration: 1.25,
+        ease: 'expo.out'
+      })
+      gsap.to(".path", {
+        autoAlpha: 1,
+        delay: 5,
+        duration: 1.25,
+        ease: 'expo.out'
+      })
+      gsap.to(".path", {
+        display: 'block',
+        delay: 4.9,
+      })
+    });
+    
     // gsap.to(".main-content", {
     //   height: 2829,
     //   delay: 4.9,
     // })
-    gsap.to(".path", {
-      display: 'block',
-      delay: 4.9,
-    })
-    gsap.to(".gradient-overlay", {
-      display: 'block',
-      delay: 4.9,
-    })
-    gsap.to(".path", {
+    
+    // gsap.to(".gradient-overlay", {
+    //   display: 'block',
+    //   delay: 4.9,
+    // })
+    gsap.to(".navbar", {
       autoAlpha: 1,
-      delay: 5,
+      delay: 2,
       duration: 1.25,
       ease: 'expo.out'
     })
@@ -118,7 +125,7 @@ export default function Index() {
           <source src="/videos/grouped.mp4" type="video/mp4"/>
         </video>
         <div class="heading">
-          <div class="d-flex heading-wrapper">
+          <div class="d-flex heading-wrapper mx-auto">
             <div class="pa"></div>
             <div class="pi"></div>
             <div class="lars"></div>
@@ -139,7 +146,7 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <div class="content">
+      <div class="content d-none d-lg-block">
         <div class="path"></div>
         <div class="inside-content">
           <div class="d-flex tentang-kami">

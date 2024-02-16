@@ -10,17 +10,17 @@ export default function Footer() {
       <>
         <div className={`${futura.className} footer`}>
           <div className="row opacity-50 color-green">
-            <div className="col-lg-6">
+            <div className="col-6">
               <p>Jl. Praja Dalam E No.37, RT.7/RW.5,</p>
               <p> Kby. Lama Sel., Kec. Kby. Lama, Kota</p>
               <p> Jakarta Selatan, Indonesia</p>
             </div>
-            <div className="col-lg-6">
-              <div className="d-flex justify-content-lg-end">
+            <div className="col-6">
+              <div className="d-flex justify-content-end">
                 <p>four.studio@gmail.com</p>
                 <ion-icon name="mail" class="ms-2 align-self-center"></ion-icon>
               </div>
-              <div className="d-flex justify-content-lg-end">
+              <div className="d-flex justify-content-end">
                 <p>+628119590159</p>
                 <ion-icon name="call" class="ms-2 align-self-center"></ion-icon>
               </div>

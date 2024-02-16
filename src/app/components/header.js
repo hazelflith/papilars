@@ -70,10 +70,6 @@ export default function Header() {
               <div className="logo" style={{ background: `url(/images/logo.png)` , backgroundSize: "contain", backgroundRepeat: "no-repeat"}}></div>
             </div>
           </div>
-          
-            <a href="/" alt="logo">
-              <div className="logo ms-auto me-4 mt-3" style={{ background: `url(a)` , backgroundSize: "contain", backgroundRepeat: "no-repeat"}}></div>
-            </a>
         </nav>
       </>
     )

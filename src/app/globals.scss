@@ -670,6 +670,31 @@ h4{
   position: fixed;
   background-color: #000;
 }
+
+@media screen and (max-width: 500px) {
+  .video1{
+    height: 28svh;
+  }
+  .landing{
+    height: 30svh;
+  }
+  .heading-wrapper{
+    height: 6vh;
+  }
+  h3{
+    font-size: 18px;
+  }
+  
+  .lars{
+    margin-top: -.45vw;
+  }
+  .footer p{
+    font-size: small;
+  }
+  .footer-brand, .footer-link{
+    font-size: 24px;
+  }
+}
 // @media (prefers-color-scheme: dark) {
 //   html {
 //     color-scheme: dark;
