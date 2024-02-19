@@ -683,13 +683,14 @@ h4{
     height: 30svh;
   }
   .heading-wrapper{
-    height: 6vh;
+    height: 40px;
   }
   h3{
     font-size: 18px;
   }
   h2{
     font-size: 24px;
+    margin: 0;
   }
   p{
     font-size: 11px;
@@ -709,7 +710,7 @@ h4{
   }
   .about{
     transform: rotate(0deg);
-    padding-top: 24px;
+    padding-top: 12px;
     padding-left: 0px;
     width: 100%;
     p{
@@ -793,6 +794,56 @@ h4{
     margin-top: 0px;
     transform: rotate(0deg);
     margin-left: 0px;
+  }
+  .porto-1 {
+    height: 40vw;
+    width: 40vw;
+    .text{
+      padding-left: 12px;
+      padding-top: 110px;
+    }
+  }
+  .porto-2 {
+    height: 40vw;
+    width: 40vw;
+    .text{
+      padding-left: 12px;
+      padding-top: 110px;
+    }
+    padding-top: 0px !important;
+
+  }
+  .porto-3 {
+    height: 40vw;
+    width: 40vw;
+    .text{
+      padding-left: 12px;
+      padding-top: 110px;
+    }
+  }
+  .porto-4 {
+    height: 40vw;
+    width: 40vw;
+    .text{
+      padding-left: 12px;
+      padding-top: 110px;
+    }
+  }
+  .porto-5 {
+    height: 40vw;
+    width: 40vw;
+    .text{
+      padding-left: 12px;
+      padding-top: 110px;
+    }
+  }
+  .porto-6 {
+    height: 40vw;
+    width: 40vw;
+    .text{
+      padding-left: 12px;
+      padding-top: 110px;
+    }
   }
 }
 // @media (prefers-color-scheme: dark) {

@@ -267,7 +267,7 @@ export default function Index() {
       </div>
       <div class="mobile-content d-lg-none">
         <div class="about">
-          <h2 class={`${futuraMD.className} text-lg-center color-green`}>
+          <h2 class={`${futuraMD.className} text-lg-center color-green mb-2`}>
             Tentang Kami
             <div class="accessories-1">
               <svg xmlns="http://www.w3.org/2000/svg" width="95" height="95" viewBox="0 0 95 95" fill="none">
@@ -284,56 +284,121 @@ export default function Index() {
           <p><b class="color-green">PAPILARS</b> adalah <b class="color-green">Digital Creative Agency</b> yang menggabungkan <b class="color-green">Keahlian dan Teknologi.</b> Kombinasi tim dengan berbagai latar belakang menciptakan nilai tinggi dalam solusi layanan yang diimplementasikan. Layanan kami mencakup <b class="color-green">Desain dan Manajemen dalam ranah solusi kreatif, pemasaran, dan branding.</b></p>
         </div>
         <div class="section-break"></div>
-          <div class="services">
-            <div class="d-flex">
-              <h2 class={`${futuraMD.className} services-title`}>
-                <div class="services-headline color-green">Services</div>
-                <div class="accessories-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="434" height="97" viewBox="0 0 434 97" fill="none">
-                    <path d="M2 2L432 42.7593H147.608L432 59.9815H219.844L381.378 72.6111L300.611 80.6481L366.59 91.5556L339.288 95" stroke="#879679" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
+        <div class="services">
+          <div class="d-flex">
+            <h2 class={`${futuraMD.className} services-title`}>
+              <div class="services-headline color-green">Services</div>
+              <div class="accessories-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="434" height="97" viewBox="0 0 434 97" fill="none">
+                  <path d="M2 2L432 42.7593H147.608L432 59.9815H219.844L381.378 72.6111L300.611 80.6481L366.59 91.5556L339.288 95" stroke="#879679" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </h2>
+          </div>
+          <div class="row mt-3">
+            <div class="col-12">
+              <div class="service-1 gap-2">
+                <div class="service-icon-1"></div>
+                <div class="service-text-1">
+                  <h4 class="color-green"><b>Social Media Management</b></h4>
+                  <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
                 </div>
-              </h2>
+              </div>
             </div>
-            <div class="row mt-3">
-              <div class="col-12">
-                <div class="service-1 gap-2">
-                  <div class="service-icon-1"></div>
-                  <div class="service-text-1">
-                    <h4 class="color-green"><b>Social Media Management</b></h4>
-                    <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
-                  </div>
+            <div class="col-12">
+              <div class="service-2 gap-2">
+                <div class="service-icon-2"></div>
+                <div class="service-text-2">
+                  <h4 class=" color-green"><b>Creative Design & UI/UX</b></h4>
+                  <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
                 </div>
               </div>
-              <div class="col-12">
-                <div class="service-2 gap-2">
-                  <div class="service-icon-2"></div>
-                  <div class="service-text-2">
-                    <h4 class=" color-green"><b>Creative Design & UI/UX</b></h4>
-                    <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
-                  </div>
+            </div>
+            <div class="col-12">
+              <div class="service-3 gap-2">
+                <div class="service-icon-3"></div>
+                <div class="service-text-3">
+                  <h4 class=" color-green"><b>Website Development</b></h4>
+                  <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
                 </div>
               </div>
-              <div class="col-12">
-                <div class="service-3 gap-2">
-                  <div class="service-icon-3"></div>
-                  <div class="service-text-3">
-                    <h4 class=" color-green"><b>Website Development</b></h4>
-                    <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="service-4 gap-2">
-                  <div class="service-icon-4"></div>
-                  <div class="service-text-4">
-                    <h4 class=" color-green"><b>Paid Advertisements</b></h4>
-                    <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
-                  </div>
+            </div>
+            <div class="col-12">
+              <div class="service-4 gap-2">
+                <div class="service-icon-4"></div>
+                <div class="service-text-4">
+                  <h4 class=" color-green"><b>Paid Advertisements</b></h4>
+                  <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="section-break"></div>
+        <div class="portofolio-mobile">
+          <div class="portofolio-title d-flex align-items-center justify-content-center">
+              <div class="accessories-3 ms-4 me-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="88" height="17" viewBox="0 0 88 17" fill="none">
+                  <path d="M2 1.5H86" stroke="#879679" stroke-width="3" stroke-linecap="round"/>
+                  <path d="M55 8.5L86 8.5" stroke="#879679" stroke-width="3" stroke-linecap="round"/>
+                  <path d="M75 15L86 15" stroke="#879679" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h2 class={`${futuraMD.className} color-green `}>Portofolio</h2>
+              <div class="accessories-4 mx-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="88" height="17" viewBox="0 0 88 17" fill="none">
+                  <path d="M86 1.5H2" stroke="#879679" stroke-width="3" stroke-linecap="round"/>
+                  <path d="M33 8.5L2 8.5" stroke="#879679" stroke-width="3" stroke-linecap="round"/>
+                  <path d="M13 15L2 15" stroke="#879679" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="section-break"></div>
+          <div class="row gy-3">
+            <div class="col-6">
+              <div class="porto-1">
+                <div class="text">
+                  <p>UI/UX Design</p><p>NIKE Mobile App</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="porto-2">
+                <div class="text">
+                  <p>Website Development</p><p>harisp.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="porto-3">
+                <div class="text">
+                  <p>UI/UX Design</p><p>Registration Page</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="porto-4">
+                <div class="text">
+                  <p>Product Design</p><p>Greeya Asih</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="porto-5">
+                <div class="text">
+                  <p>Website Development</p><p>dreamguru.id</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="porto-6">
+                <div class="text">
+                  <p>Website Development</p><p>meteraionline.id</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       {/* <div class="main-content">
         <div class="gradient-overlay"></div>
