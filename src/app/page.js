@@ -265,7 +265,7 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <div class="mobile-content">
+      <div class="mobile-content d-lg-none">
         <div class="about">
           <h2 class={`${futuraMD.className} text-lg-center color-green`}>
             Tentang Kami
@@ -283,6 +283,57 @@ export default function Index() {
           </h2>
           <p><b class="color-green">PAPILARS</b> adalah <b class="color-green">Digital Creative Agency</b> yang menggabungkan <b class="color-green">Keahlian dan Teknologi.</b> Kombinasi tim dengan berbagai latar belakang menciptakan nilai tinggi dalam solusi layanan yang diimplementasikan. Layanan kami mencakup <b class="color-green">Desain dan Manajemen dalam ranah solusi kreatif, pemasaran, dan branding.</b></p>
         </div>
+        <div class="section-break"></div>
+          <div class="services">
+            <div class="d-flex">
+              <h2 class={`${futuraMD.className} services-title`}>
+                <div class="services-headline color-green">Services</div>
+                <div class="accessories-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="434" height="97" viewBox="0 0 434 97" fill="none">
+                    <path d="M2 2L432 42.7593H147.608L432 59.9815H219.844L381.378 72.6111L300.611 80.6481L366.59 91.5556L339.288 95" stroke="#879679" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </h2>
+            </div>
+            <div class="row mt-3">
+              <div class="col-12">
+                <div class="service-1 gap-2">
+                  <div class="service-icon-1"></div>
+                  <div class="service-text-1">
+                    <h4 class="color-green"><b>Social Media Management</b></h4>
+                    <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="service-2 gap-2">
+                  <div class="service-icon-2"></div>
+                  <div class="service-text-2">
+                    <h4 class=" color-green"><b>Creative Design & UI/UX</b></h4>
+                    <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="service-3 gap-2">
+                  <div class="service-icon-3"></div>
+                  <div class="service-text-3">
+                    <h4 class=" color-green"><b>Website Development</b></h4>
+                    <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="service-4 gap-2">
+                  <div class="service-icon-4"></div>
+                  <div class="service-text-4">
+                    <h4 class=" color-green"><b>Paid Advertisements</b></h4>
+                    <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
       {/* <div class="main-content">
         <div class="gradient-overlay"></div>

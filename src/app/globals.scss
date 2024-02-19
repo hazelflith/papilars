@@ -688,9 +688,18 @@ h4{
   h3{
     font-size: 18px;
   }
+  h2{
+    font-size: 24px;
+  }
+  p{
+    font-size: 11px;
+  }
+  h4{
+    font-size: 14px;
+  }
   
   .lars{
-    margin-top: -.45vw;
+    margin-top: -.38vw;
   }
   .footer p{
     font-size: small;
@@ -716,6 +725,74 @@ h4{
     top: -51px;
     position: absolute;
     transform: scale(.3);
+  }
+  .services{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .services-title{
+    margin-right: 0px;
+  }
+  .services-headline{
+    transform: rotate(0deg);
+  }
+  .accessories-2{
+    left: -115px;
+    top: -13px;
+    position: absolute;
+    transform: scale(.2) rotate(355deg);
+  }
+  .service-1{
+    display: flex;
+    margin-top: 0px;
+  }
+  .service-2{
+    display: flex;
+    margin-top: 0px;
+  }
+  .service-3{
+    display: flex;
+    margin-top: 0px;
+  }
+  .service-4{
+    display: flex;
+    margin-top: 0px;
+  }
+  .section-break{
+    margin-top: 24px;
+  }
+  .service-icon-1{
+    height: 35vw;
+  }
+  .service-icon-2{
+    height: 35vw;
+    margin-left: 0px;
+  }
+  .service-icon-3{
+    height: 35vw;
+  }
+  .service-icon-4{
+    height: 35vw;
+  }
+  .service-text-1{
+    margin-top: 0px;
+    transform: rotate(0deg);
+    margin-left: 0px;
+  }
+  .service-text-2{
+    margin-top: 0px;
+    transform: rotate(0deg);
+    margin-left: 0px;
+  }
+  .service-text-3{
+    margin-top: 0px;
+    transform: rotate(0deg);
+    margin-left: 0px;
+  }
+  .service-text-4{
+    margin-top: 0px;
+    transform: rotate(0deg);
+    margin-left: 0px;
   }
 }
 // @media (prefers-color-scheme: dark) {
