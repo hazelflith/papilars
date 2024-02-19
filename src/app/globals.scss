@@ -669,8 +669,12 @@ h4{
   height: 65px;
   position: fixed;
   background-color: #000;
-}
+  border-bottom: 1px solid var(--primary);
 
+}
+.mobile-content{
+  padding: 14px 20px;
+}
 @media screen and (max-width: 500px) {
   .video1{
     height: 28svh;
@@ -693,6 +697,25 @@ h4{
   }
   .footer-brand, .footer-link{
     font-size: 24px;
+  }
+  .about{
+    transform: rotate(0deg);
+    padding-top: 24px;
+    padding-left: 0px;
+    width: 100%;
+    p{
+      font-size: 14px;
+    }
+    h2{
+      font-size: 24px;
+      margin-left: 0px;
+    }
+  }
+  .accessories-1{
+    left: 63px;
+    top: -51px;
+    position: absolute;
+    transform: scale(.3);
   }
 }
 // @media (prefers-color-scheme: dark) {
