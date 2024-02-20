@@ -845,6 +845,19 @@ h4{
       padding-top: 110px;
     }
   }
+  .contact-title{
+    margin-top: 50vw;
+    width: auto;
+  }
+  .animation-2{
+    width: 40vw;
+    top: -120%;
+    transform: scale(2);
+    right: 30%;
+  }
+  .footer{
+    opacity: 1;
+  }
 }
 // @media (prefers-color-scheme: dark) {
 //   html {

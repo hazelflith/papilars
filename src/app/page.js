@@ -6,7 +6,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import './globals.scss'
 import localFont from 'next/font/local'
-import Footer from "./components/footer.js";
+import ReactWOW from 'react-wow'
+
 
  
 // Font files can be colocated inside of `pages`
@@ -23,7 +24,6 @@ export default function Index() {
     //   console.log('executed')
     // }, 2000);
     let mm = gsap.matchMedia();
-
     
     gsap.to(".pa", {
       autoAlpha: 1,
@@ -395,6 +395,20 @@ export default function Index() {
                 <div class="text">
                   <p>Website Development</p><p>meteraionline.id</p>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-break"></div>
+          <div class="contact" id='contact'>
+            <dotlottie-player src="https://lottie.host/5103d5de-883e-4255-9aa5-eb66d2f8282c/lmB3nFFKIo.json" background="transparent" speed="1" loop autoplay class="animation-2"></dotlottie-player>
+            <div class="contact-title mx-auto">
+              <h3 class={`${futuraMD.className} text-center`}>Siap untuk mendigitalisasi usaha anda bersama <span class="color-green">PAPILARS</span>?</h3>
+            </div>
+            <div class="d-flex mt-3">
+              <div class="btn-action btn-outline-green hover-blockRight mx-auto">
+                HUBUNGI KAMI
+                <div class="el-block"></div>
+                <div class="el-loader"></div>
               </div>
             </div>
           </div>

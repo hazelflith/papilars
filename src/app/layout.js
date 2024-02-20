@@ -3,6 +3,7 @@ import Script from "next/script";
 import 'bootstrap/dist/css/bootstrap.css'
 import Header from "./components/header.js";
 import Footer from "./components/footer.js";
+import 'animate.css';
 
 
 const inter = Inter({ subsets: ['latin'] })
