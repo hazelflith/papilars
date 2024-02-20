@@ -6,7 +6,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import './globals.scss'
 import localFont from 'next/font/local'
-import ReactWOW from 'react-wow'
 
 
  
