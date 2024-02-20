@@ -78,6 +78,12 @@ export default function Index() {
         display: 'block',
         delay: 4.9,
       })
+      gsap.to(".footer", {
+        autoAlpha: 1,
+        delay: 5.5,
+        duration: 1.25,
+        ease: 'expo.out'
+      })
     });
     
     // gsap.to(".main-content", {
@@ -99,12 +105,7 @@ export default function Index() {
       display: 'block',
       delay: 5.5,
     })
-    gsap.to(".footer", {
-      autoAlpha: 1,
-      delay: 5.5,
-      duration: 1.25,
-      ease: 'expo.out'
-    })
+    
   }, [])
   useEffect(() => {
     if(!isLoaded) {
