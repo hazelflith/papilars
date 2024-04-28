@@ -301,7 +301,7 @@ export default function Index() {
                 <div class="service-icon-1"></div>
                 <div class="service-text-1">
                   <h4 class="color-green"><b>Social Media Management</b></h4>
-                  <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
+                  <p class="">SMM service dari kami mencakup proses <span class="color-green"><b>pemikiran konsep, pembuatan konten, hingga operasi admin untuk Sosmed (Instagram dan Facebook)</b></span> anda.  </p>
                 </div>
               </div>
             </div>
@@ -310,7 +310,7 @@ export default function Index() {
                 <div class="service-icon-2"></div>
                 <div class="service-text-2">
                   <h4 class=" color-green"><b>Creative Design & UI/UX</b></h4>
-                  <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
+                  <p class="">Anda ingin <span class="color-green"><b>Landing Page</b></span> yang keren seperti kami? atau punya <span class="color-green"><b>WebApp</b></span> yang ingin di develop? Kami dapat mewujudkannya. <span class="color-green"><b>Scripting (React & Vue), API Based (Golang & Springboot), Mobile Based (Android & iOS) hingga Wordpress</b>.</span></p>
                 </div>
               </div>
             </div>
@@ -319,7 +319,7 @@ export default function Index() {
                 <div class="service-icon-3"></div>
                 <div class="service-text-3">
                   <h4 class=" color-green"><b>Website Development</b></h4>
-                  <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
+                  <p class="">Butuh <span class="color-green"><b>Manajemen Iklan</b></span> untuk digital marketing anda? Kami punya solusinya, <span class="color-green"><b>Spesialisasi Meta Ads dan Google Ads</b></span> dari kami dapat mewujudkan target marketing dan sales anda.</p>
                 </div>
               </div>
             </div>
