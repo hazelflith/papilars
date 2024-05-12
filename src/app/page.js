@@ -250,7 +250,7 @@ export default function Index() {
               <div class="porto-6"><p>Website Development</p><p>meteraionline.id</p></div>
               <div class="contact" id='contact'>
                 <dotlottie-player src="https://lottie.host/5103d5de-883e-4255-9aa5-eb66d2f8282c/lmB3nFFKIo.json" background="transparent" speed="1" loop autoplay class="animation-2"></dotlottie-player>
-                <div class="contact-title ms-auto">
+                <div class="contact-title mx-auto">
                   <h3 class={`${futuraMD.className} text-center`}>Siap untuk mendigitalisasi usaha anda bersama <span class="color-green">PAPILARS</span>?</h3>
                 </div>
                 <div class="d-flex mx-auto mt-3">
@@ -310,7 +310,7 @@ export default function Index() {
                 <div class="service-icon-2"></div>
                 <div class="service-text-2">
                   <h4 class=" color-green"><b>Creative Design & UI/UX</b></h4>
-                  <p class="">Anda ingin <span class="color-green"><b>Landing Page</b></span> yang keren seperti kami? atau punya <span class="color-green"><b>WebApp</b></span> yang ingin di develop? Kami dapat mewujudkannya. <span class="color-green"><b>Scripting (React & Vue), API Based (Golang & Springboot), Mobile Based (Android & iOS) hingga Wordpress</b>.</span></p>
+                  <p class="text-center">Anda butuh <span class="color-green"><b>redesign Logo? Kemasan Produk? atau Mockup Aplikasi?</b></span> Kami siap untuk memberikan design <span class="color-green"><b>Modern dan Interaktif.</b></span></p>
                 </div>
               </div>
             </div>
@@ -319,7 +319,7 @@ export default function Index() {
                 <div class="service-icon-3"></div>
                 <div class="service-text-3">
                   <h4 class=" color-green"><b>Website Development</b></h4>
-                  <p class="">Butuh <span class="color-green"><b>Manajemen Iklan</b></span> untuk digital marketing anda? Kami punya solusinya, <span class="color-green"><b>Spesialisasi Meta Ads dan Google Ads</b></span> dari kami dapat mewujudkan target marketing dan sales anda.</p>
+                  <p class="">Anda ingin <span class="color-green"><b>Landing Page</b></span> yang keren seperti kami? atau punya <span class="color-green"><b>WebApp</b></span> yang ingin di develop? Kami dapat mewujudkannya. <span class="color-green"><b>Scripting (React & Vue), API Based (Golang & Springboot), Mobile Based (Android & iOS) hingga Wordpress</b>.</span></p>
                 </div>
               </div>
             </div>
@@ -328,7 +328,7 @@ export default function Index() {
                 <div class="service-icon-4"></div>
                 <div class="service-text-4">
                   <h4 class=" color-green"><b>Paid Advertisements</b></h4>
-                  <p class="">Lorem ipsum dolor sit amet consectetur. Vel nunc fames mollis purus ullamcorper quam. Eget faucibus tristique et cursus pretium in nisl consequat ut. </p>
+                  <p class="">Butuh <span class="color-green"><b>Manajemen Iklan</b></span> untuk digital marketing anda? Kami punya solusinya, <span class="color-green"><b>Spesialisasi Meta Ads dan Google Ads</b></span> dari kami dapat mewujudkan target marketing dan sales anda.</p>
                 </div>
               </div>
             </div>

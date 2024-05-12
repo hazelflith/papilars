@@ -473,7 +473,7 @@ h4{
   width: 30vw;
   top: -10%;
   transform: scale(2);
-  right: 6.5vw;
+  right: 18%;
 }
 .contact-title{
   margin-top: 50vw;
@@ -676,6 +676,9 @@ h4{
   padding: 14px 20px;
 }
 @media screen and (max-width: 500px) {
+  .btn-action {
+    padding: 8px 36px;
+  }
   .video1{
     height: 28svh;
   }
