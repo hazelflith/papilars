@@ -310,7 +310,7 @@ export default function Index() {
                 <div class="service-icon-2"></div>
                 <div class="service-text-2">
                   <h4 class=" color-green"><b>Creative Design & UI/UX</b></h4>
-                  <p class="text-center">Anda butuh <span class="color-green"><b>redesign Logo? Kemasan Produk? atau Mockup Aplikasi?</b></span> Kami siap untuk memberikan design <span class="color-green"><b>Modern dan Interaktif.</b></span></p>
+                  <p class="text-start">Anda butuh <span class="color-green"><b>redesign Logo? Kemasan Produk? atau Mockup Aplikasi?</b></span> Kami siap untuk memberikan design <span class="color-green"><b>Modern dan Interaktif.</b></span></p>
                 </div>
               </div>
             </div>
